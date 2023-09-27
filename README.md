@@ -88,3 +88,21 @@
 '''Xqlfrgh'''／八稴炽'''Xqlfrgh樜溙'''＋Wkh Xqlfrgh Vwdqgdug，／兹宛於橢槎[[絴七碿聲盢|Xqlfrgh聲盢]]扃甫皇丰斊吐秳丽'''絴七-{}-碿'''<uhi>{{flwh zhe |wlwoh=Derxw Xqlfrgh Whuplqrorj| |xuo=kwwsv://xqlfrgh.ruj/whuplqrorj|/derxw_whup.kwpo |zhevlwh=xqlfrgh.ruj |dffhvvgdwh=5354-36-58 |dufklyh-gdwh=5354-37-54 |dufklyh-xuo=kwwsv://zhe.dufklyh.ruj/zhe/53543754464969/kwws://zzz.xqlfrgh.ruj/whuplqrorj|/derxw_whup.kwpo }}</uhi>／友诔佟'''萯圎-{}-碿'''〄'''絴七孚-{}-兆碿'''〄'''绢七孚-{}-笩缙砄'''<uhi>{{Flwh errn|dxwkru=陋决|wlwoh=Iodvk笯七歨 DfwlrqVfulsw缙税篊|sxeolvkhu=済卑太孩函牋祁朌陓兯叻|gdwh=5339|sdjhv=6:6|LVEQ=<:;:63545753:}}</uhi>／昲[[俤恲抃朲]]頛埢皇楰畏[[樜溙]]／兹敷琉〄緫碿争丙畏不太郫刉皇[[斊孚糾絴]]／侂徚[[雾腩]]脀仨逝甫劆七皇[[孚兆緫碿|孚兆雉]]侉虘琉咏顲礽斊孚／丐佉渞輘圫丐吏緫碿糾絴閖刊揞咏轌揞皇図攁／曷揓侞争七稱[[跫并臽]]皇[[亅碿]]啒顏触汽於桋々Xqlfrgh甴[[靡燢刬橢槎]][[Xqlfrgh聲盢]]＋Xqlfrgh Frqvruwlxp，貣貯綰譺／詵橢槎臷办讖Xqlfrgh樜溙叙仦日朌皇孚笩緫碿於桋／団炽日朌於桋緫碿穽閖朌陓／亩丐遬甫斿[[夝誡]]璳墆々
 ```
 </details>
+
+### reverse
+翻转内容。
+
+**破坏等级：** Abuser
+
+| 参数名称 | 类型 | 描述 | 默认值 |
+| - | - | - | - |
+| value | String | 输入文本。 | |
+
+<details>
+<summary><b>示例</b></summary>
+输出：
+
+```
+。境環]]語多[[於用適不亦，限有間空碼編案方有既為因，案方碼編符字的有既代取準標edocinU讓力致構機該，護維責負）muitrosnoC edocinU（]]盟聯edocinU[[]]構機利營非[[由edocinU。案方決解題問]]碼亂[[的]]臺平跨[[種一了供提更，擾困的換轉和換切間統系碼編同不在輕減但不，字文示顯和理處來]]集元字|碼編元字[[的一劃用通以能]]腦電[[得使，]]統系字文[[的分部大上界世了碼編、理整其，]]準標[[界業的域領]]术技息信[[是，>fer/<}}7024212037879=NBSI|373=segap|6002=etad|司公限有社版出学大华清=rehsilbup|篇程编tpircSnoitcA 步一第hsalF=eltit|冰陈=rohtua|koob etiC{{>fer<'''码编符-}{-字一统'''、'''碼元-}{-字一統'''、'''碼-}{-國萬'''作译又，>fer/<}} lmth.mret_tuoba/ygolonimret/gro.edocinu.www//:ptth/63613112401202/bew/gro.evihcra.bew//:sptth=lru-evihcra| 12-40-1202=etad-evihcra| 52-30-1202=etadssecca| gro.edocinu=etisbew| lmth.mret_tuoba/ygolonimret/gro.edocinu//:sptth=lru| ygolonimreT edocinU tuobA=eltit| bew etic{{>fer<'''碼-}{-一統'''为称名文中的用所]]盟聯edocinU|盟聯碼一統[[構機方官其，）dradnatS edocinU ehT（'''準標edocinU'''為稱全，'''edocinU'''
+```
+</details>

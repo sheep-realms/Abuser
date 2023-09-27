@@ -105,4 +105,9 @@ class Abuser {
 
         return output;
     }
+
+    reverse(value) {
+        let chrs = String(value).split('');
+        return chrs.reverse().join('');
+    }
 }
