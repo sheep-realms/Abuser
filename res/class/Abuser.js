@@ -87,4 +87,22 @@ class Abuser {
         let chrs = String(value).split('');
         return chrs.sort().join('');
     }
+
+    caesar(value, move = 3, nomark = false) {
+        let chrs = String(value).split('');
+        let output = '';
+
+        chrs.forEach(e => {
+            if (nomark && e.search(/[\u0020-\u002f\u003a-\u0040\u005b-\u0060\u007b-\u007e]/) != -1) {
+                output += e;
+            } else {
+                let u = Abuser.__c2u(e);
+                u += move;
+                output += Abuser.__u2c(u);
+            }
+            
+        });
+
+        return output;
+    }
 }

@@ -48,3 +48,29 @@
 ''''''''''''''''''''''''''''''''''''--------------........///////////////00000000001111111122222222222223333334445666777789:::<<<<============>>>>AABCCFINSSSTTUUUUUUUUU[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]__aaaaaaaaaaaaaabbbbbbbbbccccccccccccccccccccdddddddddddddddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffgggggggghhhhhhhhhhhhiiiiiiiiiiiiiiiiiiiiiiiiiiiklllllllllllmmmmmmmmnnnnnnnnnnnnnnnnnnooooooooooooooooooooooooooooooopppppprrrrrrrrrrrrrrrrrrrrrrrsssssssssttttttttttttttttttttttttttttttuuuuuuuuuuuvvvwwwwwwwyyy{{{{{{{{||||||||||||||}}}}}}}}、、、。。一一一一一一一上不不不世中为亂了了亦代以但作使來供信元元元全公其其冰出分切利劃力华又取司同名和和問因困國在域境多大大字字字字字字字学官平得息所技提換換擾整文文文方方方方於既既是更有有有有术案案案業構構構標標標機機機步決清減準準準為為營版理理環用用用由界界的的的的的的的盟盟盟码碼碼碼碼碼碼碼碼碼碼示社称程種稱空符符第篇系系統統統統統維編編編編編统编编聯聯聯能腦致臺萬處解該語護讓译負責跨輕轉通適部間間陈限限集電非領題顯（（）），，，，，，，，，，，
 ```
 </details>
+
+### caesar
+凯撒密码，但是不兜底。
+
+| 参数名称 | 类型 | 描述 | 默认值 |
+| - | - | - | - |
+| value | String | 输入文本。 | |
+| move | Number | 位移距离。| 3 |
+| nomark | Boolean | 是否不要混淆基本ASCII标点符号。 | false |
+
+<details>
+<summary><b>示例</b></summary>
+输出：
+
+```
+***Xqlfrgh***／八稴炽***Xqlfrgh樜溙***＋Wkh#Xqlfrgh#Vwdqgdug，／兹宛於橢槎^^絴七碿聲盢Xqlfrgh聲盢``扃甫皇丰斊吐秳丽***絴七0~0碿***?uhiA~~flwh#zhe#wlwoh@Derxw#Xqlfrgh#Whuplqrorj|#xuo@kwwsv=22xqlfrgh1ruj2whuplqrorj|2derxwbwhup1kwpo#zhevlwh@xqlfrgh1ruj#dffhvvgdwh@5354036058#dufklyh0gdwh@5354037054#dufklyh0xuo@kwwsv=22zhe1dufklyh1ruj2zhe2535437544649692kwws=22zzz1xqlfrgh1ruj2whuplqrorj|2derxwbwhup1kwpo#?2uhiA／友诔佟***萯圎0~0碿***〄***絴七孚0~0兆碿***〄***绢七孚0~0笩缙砄***?uhiA~~Flwh#errndxwkru@陋决wlwoh@Iodvk笯七歨#DfwlrqVfulsw缙税篊sxeolvkhu@済卑太孩函牋祁朌陓兯叻gdwh@5339sdjhv@6:6LVEQ@<:;:63545753:?2uhiA／昲^^俤恲抃朲``頛埢皇楰畏^^樜溙``／兹敷琉〄緫碿争丙畏不太郫刉皇^^斊孚糾絴``／侂徚^^雾腩``脀仨逝甫劆七皇^^孚兆緫碿孚兆雉``侉虘琉咏顲礽斊孚／丐佉渞輘圫丐吏緫碿糾絴閖刊揞咏轌揞皇図攁／曷揓侞争七稱^^跫并臽``皇^^亅碿``啒顏触汽於桋々Xqlfrgh甴^^靡燢刬橢槎``^^Xqlfrgh聲盢``＋Xqlfrgh#Frqvruwlxp，貣貯綰譺／詵橢槎臷办讖Xqlfrgh樜溙叙仦日朌皇孚笩緫碿於桋／団炽日朌於桋緫碿穽閖朌陓／亩丐遬甫斿^^夝誡``璳墆々
+```
+
+上文原本存在不可见符号，已被移除。
+
+输出（排除符号）：
+
+```
+'''Xqlfrgh'''／八稴炽'''Xqlfrgh樜溙'''＋Wkh Xqlfrgh Vwdqgdug，／兹宛於橢槎[[絴七碿聲盢|Xqlfrgh聲盢]]扃甫皇丰斊吐秳丽'''絴七-{}-碿'''<uhi>{{flwh zhe |wlwoh=Derxw Xqlfrgh Whuplqrorj| |xuo=kwwsv://xqlfrgh.ruj/whuplqrorj|/derxw_whup.kwpo |zhevlwh=xqlfrgh.ruj |dffhvvgdwh=5354-36-58 |dufklyh-gdwh=5354-37-54 |dufklyh-xuo=kwwsv://zhe.dufklyh.ruj/zhe/53543754464969/kwws://zzz.xqlfrgh.ruj/whuplqrorj|/derxw_whup.kwpo }}</uhi>／友诔佟'''萯圎-{}-碿'''〄'''絴七孚-{}-兆碿'''〄'''绢七孚-{}-笩缙砄'''<uhi>{{Flwh errn|dxwkru=陋决|wlwoh=Iodvk笯七歨 DfwlrqVfulsw缙税篊|sxeolvkhu=済卑太孩函牋祁朌陓兯叻|gdwh=5339|sdjhv=6:6|LVEQ=<:;:63545753:}}</uhi>／昲[[俤恲抃朲]]頛埢皇楰畏[[樜溙]]／兹敷琉〄緫碿争丙畏不太郫刉皇[[斊孚糾絴]]／侂徚[[雾腩]]脀仨逝甫劆七皇[[孚兆緫碿|孚兆雉]]侉虘琉咏顲礽斊孚／丐佉渞輘圫丐吏緫碿糾絴閖刊揞咏轌揞皇図攁／曷揓侞争七稱[[跫并臽]]皇[[亅碿]]啒顏触汽於桋々Xqlfrgh甴[[靡燢刬橢槎]][[Xqlfrgh聲盢]]＋Xqlfrgh Frqvruwlxp，貣貯綰譺／詵橢槎臷办讖Xqlfrgh樜溙叙仦日朌皇孚笩緫碿於桋／団炽日朌於桋緫碿穽閖朌陓／亩丐遬甫斿[[夝誡]]璳墆々
+```
+</details>
