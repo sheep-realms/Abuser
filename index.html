@@ -1,15 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abuser</title>
+    <link rel="stylesheet" href="res/style/fh-ui.css">
+    <link rel="stylesheet" href="res/style/abuser.css">
+    <link rel="stylesheet" href="res/style/common.css">
+    <script src="lib/jquery-1.7.2.min.js"></script>
+    <script src="res/data/data.js"></script>
     <script src="res/class/Abuser.js"></script>
+    <script src="res/class/FormConstructor.js"></script>
     <script>
         let abuser = new Abuser();
     </script>
 </head>
 <body>
+    <header>
+        <h1>Abuser</h1>
+    </header>
+
+    <main class="fh-flex-row">
+        <div id="side"></div>
+        <div id="content">
+            <div class="abuser-from">
+                <label for="text">输入</label>
+                <textarea name="text" id="text" style="height: 50vh;"></textarea>
+            </div>
     
+            <div id="abuser-parameter-form-list"></div>
+    
+            <div class="abuser-controller-bottom fh-flex-row">
+                <button id="clear" class="fh-button fh-big fh-danger">重置</button>
+                <button id="output" class="fh-button fh-big">输出</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="res/srcipt/common.js"></script>
 </body>
 </html>

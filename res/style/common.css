@@ -1,0 +1,32 @@
+#side {
+    width: 300px;
+    padding-right: 1em;
+    box-sizing: border-box;
+}
+
+#content {
+    flex: 1;
+}
+
+.abuser-fn-item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 38px;
+    padding: 0 1em;
+    color: var(--text-regular);
+}
+
+.abuser-fn-item[aria-selected="true"] {
+    background-color: var(--color-general-dark);
+    color: #FFF;
+}
+
+header {
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 32px;
+}

@@ -12,6 +12,7 @@ body {
     overflow-y: scroll;
 }
 
+header,
 main {
     width: min(1000px, calc(100vw - 32px));
     margin: 0 auto;
@@ -177,6 +178,10 @@ textarea.code {
     align-items: center;
 }
 
+.abuser-from-row+.abuser-from-row {
+    padding-top: 0;
+}
+
 .abuser-from-row>label {
     width: 200px;
 }
@@ -209,6 +214,7 @@ input[type=text] {
     outline: none;
     background-color: #FFFFFF;
     transition: border .3s;
+    line-height: 28px;
 }
 
 input[type=number]:focus,
