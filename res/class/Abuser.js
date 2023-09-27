@@ -9,12 +9,14 @@ class Abuser {
             {name: 'sml', min: 0x2b0, max: 0x2ff, reg: /[\u02b0-\u02ff]/},
             {name: 'cdm', min: 0x300, max: 0x36f, reg: /[\u0300-\u036f]/},
 
+            // 7
             {name: 'cjk-rs', min: 0x2e80, max: 0x2eff, reg: /[\u2e80-\u2eff]/},
             {name: 'kangxi', min: 0x2f00, max: 0x2fdf, reg: /[\u2f00-\u2fdf]/},
             {name: 'idc', min: 0x2ff0, max: 0x2fff, reg: /[\u2ff0-\u2fff]/},
             {name: 'cjk-sp', min: 0x3000, max: 0x303f, reg: /[\u3000-\u303f]/},
             {name: 'hiragana', min: 0x3040, max: 0x309f, reg: /[\u3040-\u309f]/},
             {name: 'katakana', min: 0x30a0, max: 0x30ff, reg: /[\u30a0-\u30ff]/},
+            // 13
             {name: 'bopomofo', min: 0x3100, max: 0x312f, reg: /[\u3100-\u312f]/},
             {name: 'hcj', min: 0x3130, max: 0x318f, reg: /[\u3130-\u318f]/},
             {name: 'kanbun', min: 0x3190, max: 0x319f, reg: /[\u3190-\u319f]/},
@@ -23,13 +25,17 @@ class Abuser {
             {name: 'katakana-pe', min: 0x31f0, max: 0x31ff, reg: /[\u31f0-\u31ff]/},
             {name: 'e-cjk-lm', min: 0x3200, max: 0x32ff, reg: /[\u3200-\u32ff]/},
             {name: 'cjk-c', min: 0x3300, max: 0x33ff, reg: /[\u3300-\u33ff]/},
+            // 21
             {name: 'cjk-ui-ex-a', min: 0x3400, max: 0x4dbf, reg: /[\u3400-\u4dbf]/},
             {name: 'yijing', min: 0x4dc0, max: 0x4dff, reg: /[\u4dc0-\u4dff]/},
             {name: 'cjk-ui', min: 0x4e00, max: 0x9fff, reg: /[\u4e00-\u9fff]/},
+
+            {name: 'fillwidth', min: 0xff01, max: 0xff60, reg: /[\uff01-\uff60]/},
+            {name: 'halfwidth', min: 0xff61, max: 0xffef, reg: /[\uff61-\uffef]/},
         ];
         this.unicodeIndex = [
             [0x2e80, 7],
-            [0x3000, 10],
+            [0x3100, 13],
             [0x3400, 21],
         ]
     }

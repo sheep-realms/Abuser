@@ -17,6 +17,10 @@
     color: var(--text-regular);
 }
 
+.abuser-fn-item:hover {
+    background-color: var(--color-general-glass);
+}
+
 .abuser-fn-item[aria-selected="true"] {
     background-color: var(--color-general-dark);
     color: #FFF;
