@@ -14,7 +14,7 @@
     height: 26px;
     padding: 0 1em;
     color: var(--text-secondary);
-    border-bottom: var(--text-secondary) 1px solid;
+    border-bottom: #AAA 1px solid;
     margin-bottom: 0.5em;
 }
 

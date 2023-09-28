@@ -5,11 +5,11 @@ const DB_abuser = [
     }, {
         type: 'item',
         name: 'obfuscation',
-        title: '混淆',
+        title: '随机混淆',
         parameter: [
             {
                 type: 'boolean',
-                label: '不要替换基本ASCII标点符号',
+                label: '不要替换基本 ASCII 标点符号',
                 default: false
             }
         ]
@@ -32,7 +32,7 @@ const DB_abuser = [
                 default: 3
             }, {
                 type: 'boolean',
-                label: '不要替换基本ASCII标点符号',
+                label: '不要替换基本 ASCII 标点符号',
                 default: false
             }
         ]
