@@ -1,5 +1,5 @@
 # Abuser
-文本破坏者，一款用于破坏文本内容的工具，其特点是在文本被破坏后仍能保持字节数与原文相近甚至完全一致。
+文本破坏者，一款用于破坏文本内容的工具，其特点是一些破坏方法在文本被破坏后仍能保持字节数与原文相近甚至完全一致，亦或者看起来和原文一致，实际上造成了巨大的破坏。
 
 下文列出了所有方法，并按 Joker、Abuser、Nuclear、Void 四个破坏等级予以评价。
 
@@ -106,5 +106,30 @@
 
 ```
 。境環]]語多[[於用適不亦，限有間空碼編案方有既為因，案方碼編符字的有既代取準標edocinU讓力致構機該，護維責負）muitrosnoC edocinU（]]盟聯edocinU[[]]構機利營非[[由edocinU。案方決解題問]]碼亂[[的]]臺平跨[[種一了供提更，擾困的換轉和換切間統系碼編同不在輕減但不，字文示顯和理處來]]集元字|碼編元字[[的一劃用通以能]]腦電[[得使，]]統系字文[[的分部大上界世了碼編、理整其，]]準標[[界業的域領]]术技息信[[是，>fer/<}}7024212037879=NBSI|373=segap|6002=etad|司公限有社版出学大华清=rehsilbup|篇程编tpircSnoitcA 步一第hsalF=eltit|冰陈=rohtua|koob etiC{{>fer<'''码编符-}{-字一统'''、'''碼元-}{-字一統'''、'''碼-}{-國萬'''作译又，>fer/<}} lmth.mret_tuoba/ygolonimret/gro.edocinu.www//:ptth/63613112401202/bew/gro.evihcra.bew//:sptth=lru-evihcra| 12-40-1202=etad-evihcra| 52-30-1202=etadssecca| gro.edocinu=etisbew| lmth.mret_tuoba/ygolonimret/gro.edocinu//:sptth=lru| ygolonimreT edocinU tuobA=eltit| bew etic{{>fer<'''碼-}{-一統'''为称名文中的用所]]盟聯edocinU|盟聯碼一統[[構機方官其，）dradnatS edocinU ehT（'''準標edocinU'''為稱全，'''edocinU'''
+```
+</details>
+
+### insert
+在每一个字符之间插入内容。
+
+**破坏等级：** Joker
+
+| 参数名称 | 类型 | 描述 | 默认值 |
+| - | - | - | - |
+| value | String | 输入文本。 | |
+| ins | String | 插入的内容。该参数留空将会使用默认值。 | '\ufeff' |
+
+<details>
+<summary><b>示例</b></summary>
+输入：
+
+```
+在每一个字符之间插入内容。
+```
+
+输出：
+
+```
+在1每1一1个1字1符1之1间1插1入1内1容1。
 ```
 </details>

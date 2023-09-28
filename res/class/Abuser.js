@@ -116,4 +116,13 @@ class Abuser {
         let chrs = String(value).split('');
         return chrs.reverse().join('');
     }
+
+    insert(value, ins = '\ufeff') {
+        if (ins == '') ins = '\ufeff';
+        let chrs = String(value).split('');
+        for (let i = 0; i < chrs.length -1; i++) {
+            chrs[i] += ins;
+        }
+        return chrs.join('');
+    }
 }

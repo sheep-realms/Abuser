@@ -1,23 +1,28 @@
 class FormConstructor {
     constructor() {}
 
-    static item(index, label, content) {
-        return `<div class="abuser-from-row"><label for="form-item-${index}">${label}</label>${content}</div>`;
+    static tip(label) {
+        return `<div class="abuser-from-checkbox-list"><span class="abuser-from-input-tip">${label}</span></div>`
     }
 
-    static input(index, label, def, type = 'text') {
+    static item(index, label, content, tip = '') {
+        return `<div class="abuser-from-row"><label for="form-item-${index}">${label}</label>${content}</div>${tip != '' ? FormConstructor.tip(tip) : ''}`;
+    }
+
+    static input(index, label, def, tip = '', type = 'text') {
         return FormConstructor.item(
             index,
             label,
-            `<input type="${type}" name="form-item-${index}" class="form-item-${index} abuser-form-item" data-index="${index}" value="${def}" data-default="${def}">`
+            `<input type="${type}" name="form-item-${index}" class="form-item-${index} abuser-form-item" data-index="${index}" value="${def}" data-default="${def}">`,
+            tip
         );
     }
 
-    static inputNum(index, label, def) {
-        return FormConstructor.input(index, label, def, 'number');
+    static inputNum(index, label, def, tip = '') {
+        return FormConstructor.input(index, label, def, tip, 'number');
     }
 
-    static checkbox(index, label, def) {
+    static checkbox(index, label, def, tip = '') {
         return FormConstructor.item(
             index,
             '',
@@ -25,11 +30,16 @@ class FormConstructor {
                 <span class="icon"></span>
                 <span class="text">${label}</span>
                 <input type="hidden" name="form-item-${index}" class="form-item-${index}" value="${def}" data-default="${def}">
-            </button>`
+            </button>`,
+            tip
         );
     }
 
     static sideItem(name, title) {
         return `<div class="abuser-fn-item" aria-selected="false" data-name="${name}"><span class="title">${title}</span></div>`
+    }
+
+    static sideGroup(title) {
+        return `<div class="abuser-fn-group"><span class="title">${title}</span></div>`
     }
 }

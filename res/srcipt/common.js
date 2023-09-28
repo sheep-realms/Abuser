@@ -28,7 +28,19 @@ $(document).on('click', '.abuser-fn-item', function() {
 $(document).ready(function() {
     let side = '';
     DB_abuser.forEach(e => {
-        side += FormConstructor.sideItem(e.name, e.title);
+        switch (e.type) {
+            case 'item':
+                side += FormConstructor.sideItem(e.name, e.title);
+                break;
+
+            case 'group':
+                side += FormConstructor.sideGroup(e.title);
+                break;
+        
+            default:
+                break;
+        }
+        
     });
     $('#side').html(side);
     $('.abuser-fn-item').eq(0).click();
@@ -99,7 +111,12 @@ function loadFn(value) {
     let dom = '';
     
     obj.parameter.forEach(e => {
-        dom += FormConstructor[type2ctf[e.type]](formIndex++, e.label, e.default);
+        dom += FormConstructor[type2ctf[e.type]](
+            formIndex++,
+            e.label,
+            e.default,
+            e?.tip ? e.tip : ''
+        );
     });
 
     $('#abuser-parameter-form-list').html(dom);
