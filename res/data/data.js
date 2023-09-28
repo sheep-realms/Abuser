@@ -53,7 +53,7 @@ const DB_abuser = [
                 type: 'text',
                 label: '插入的内容',
                 default: '',
-                tip: '若留空则零宽不折行空格（U+FEFF）。'
+                tip: '若留空则使用零宽不折行空格（U+FEFF）。'
             }
         ]
     }
