@@ -30,6 +30,10 @@
     height: 38px;
     padding: 0 1em;
     color: var(--text-regular);
+    border: unset;
+    background-color: transparent;
+    width: 100%;
+    font-size: 16px;
 }
 
 .abuser-fn-item:hover:not([aria-selected="true"]) {

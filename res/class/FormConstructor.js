@@ -36,7 +36,7 @@ class FormConstructor {
     }
 
     static sideItem(name, title) {
-        return `<div class="abuser-fn-item" aria-selected="false" data-name="${name}"><span class="title">${title}</span></div>`
+        return `<button class="abuser-fn-item" role="tab" aria-selected="false" data-name="${name}"><span class="title">${title}</span></button>`
     }
 
     static sideGroup(title) {
