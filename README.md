@@ -63,6 +63,37 @@
 ```
 </details>
 
+### randomNumber
+将数字替换为随机数字。
+
+**破坏等级：** Nuclear
+
+| 参数名称 | 类型 | 描述 | 默认值 |
+| - | - | - | - |
+| value | String | 输入文本。 | |
+
+<details>
+<summary><b>示例</b></summary>
+输入：
+
+``` json
+{
+    "count": 1230,
+    "max": 3000
+}
+```
+
+下文如无说明均使用此例文。
+
+输出：
+
+``` json
+{
+    "count": 2197,
+    "max": 1245
+}
+```
+
 ### caesar
 凯撒密码，但是不兜底。
 
