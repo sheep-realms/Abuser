@@ -52,6 +52,10 @@ class Abuser {
         return String.fromCharCode(num);
     }
 
+    static __getRandomDigit() {
+        return String.fromCharCode(Math.floor(Math.random() * 10) + 48);
+    }
+
     obfuscation(value, nomark = false) {
         let chrs = String(value).split('');
         let output = '';
@@ -124,5 +128,15 @@ class Abuser {
             chrs[i] += ins;
         }
         return chrs.join('');
+    }
+
+    randomNumber(value) {
+        return value.split('').map(char => {
+            if (/\d/.test(char)) {
+                return Abuser.__getRandomDigit();
+            } else {
+                return char;
+            }
+        }).join('');
     }
 }

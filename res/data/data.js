@@ -19,6 +19,11 @@ const DB_abuser = [
         title: '字符排序',
         parameter: []
     }, {
+        type: 'item',
+        name: 'randomNumber',
+        title: '随机数字',
+        parameter: []
+    }, {
         type: 'group',
         title: 'Abuser'
     }, {
